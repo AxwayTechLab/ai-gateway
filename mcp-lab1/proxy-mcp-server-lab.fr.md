@@ -1,4 +1,4 @@
-# TechLab - Proxy MCP Server
+# Proxy MCP Server
 
 Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusion de la solution Axway AI Gateway, puis testez-le dans Claude Desktop.
 

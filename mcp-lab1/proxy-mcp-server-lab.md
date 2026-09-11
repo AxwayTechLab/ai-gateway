@@ -1,4 +1,4 @@
-# TechLab - Proxy MCP Server
+# Proxy MCP Server
 
 Expose a remote MCP server as a secure proxy with Amplify Fusion / AI Gateway, then test it in Claude Desktop.
 
