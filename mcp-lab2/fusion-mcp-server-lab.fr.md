@@ -1,4 +1,4 @@
-# Serveur MCP Fusion
+# MCP Server Fusion
 
 Créez un serveur MCP avec un tool personnalisé reposant sur une connexion OpenAPI dans Amplify Fusion / AI Gateway, puis testez-le dans Claude Desktop.
 
