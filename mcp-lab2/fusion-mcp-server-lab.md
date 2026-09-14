@@ -103,7 +103,8 @@ Build an MCP server with a custom tool backed by an OpenAPI connection in Amplif
         "command": "npx",
         "args": ["mcp-remote", "<your MCP server URL>"]
       }
-    }
+    },
+    "preferences": { ... }
   }
   ```
 * Save the config file

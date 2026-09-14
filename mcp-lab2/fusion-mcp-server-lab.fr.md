@@ -102,7 +102,8 @@ Créez un serveur MCP avec un tool personnalisé reposant sur une connexion Open
         "command": "npx",
         "args": ["mcp-remote", "<votre URL de serveur MCP>"]
       }
-    }
+    },
+    "preferences": { ... }
   }
   ```
 * Enregistrez le fichier de configuration.
