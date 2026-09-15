@@ -4,9 +4,9 @@ Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusio
 
 ## Prérequis
 
-* Accès à Amplify Fusion (https://fr-techlab.sandbox.fusion.services.axway.com)
+* Accès à Amplify Fusion: [https://fr-techlab.sandbox.fusion.services.axway.com](https://fr-techlab.sandbox.fusion.services.axway.com)
   ![connection](images/01-connection.png)
-* URL d'un serveur MCP distant à proxyfier (https://mcpdemo.tools est un serveur MCP en ligne gratuit, pratique pour les tests)
+* URL d'un serveur MCP distant à proxyfier ([(https://mcpdemo.tools](https://mcpdemo.tools) fournit un serveur MCP en ligne gratuit, pratique pour les tests)
 * [Claude Desktop](https://claude.com/download) installé, avec un compte Claude gratuit ou supérieur
 * [Node.js](https://nodejs.org/fr) installé sur le même poste
 
@@ -21,8 +21,9 @@ Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusio
   * Méthode de création : **External MCP Server**
   * Nom du serveur : `Order Proxy MCP Server`
   * Fusion MCP Connection : choisissez **Create new connection**
-  ![create-mcp-client](images/05-create-mcp-client.png)
+  ![create-mcp-server](images/04-create-mcp-server-form.png)
     * Nom de l'artefact : `Order Remote MCP Server`
+    ![create-mcp-client](images/05-create-mcp-client.png)
     * Service Root URL : `https://mcpdemo.tools/mcp`
     * Cliquez sur **Update** pour enregistrer la connexion
   ![mcp-client-properties](images/06-mcp-client-properties.png)
@@ -37,9 +38,10 @@ Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusio
 
 ### 2. Activer le proxy MCP
 
-* Activez le serveur MCP sur le data plane Fusion avec le bouton ▶
-![activate-mcp-server](images/09-activate-mcp-server.png)
+* Activez le serveur MCP sur le data plane Fusion avec le bouton ![▶](images/09-activate-button.png)
+![activate-mcp-server](images/09a-activate-mcp-server.png)
 * Copiez l'URL du proxy MCP
+![activate-mcp-server](images/09b-mcp-server-url.png)
 
 ### 3. Tester depuis Claude Desktop
 

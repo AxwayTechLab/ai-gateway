@@ -4,9 +4,9 @@ Expose a remote MCP server as a secure proxy with Amplify Fusion / AI Gateway, t
 
 ## Requirements
 
-* Access to Amplify Fusion (https://emea-techlab.sandbox.fusion.services.axway.com)
+* Access to Amplify Fusion: [https://emea-techlab.sandbox.fusion.services.axway.com](https://emea-techlab.sandbox.fusion.services.axway.com)
   ![connection](images/01-connection.png)
-* URL of a remote MCP server to proxy (https://mcpdemo.tools is an online MCP server, free and handy for test purposes)
+* URL of a remote MCP server to proxy ([(https://mcpdemo.tools](https://mcpdemo.tools) provides an online MCP server, free and handy for test purposes)
 * [Claude Desktop](https://claude.com/download) installed, with a free Claude account or higher
 * [Node.js](https://nodejs.org/) installed on the same machine
 
@@ -21,8 +21,9 @@ Expose a remote MCP server as a secure proxy with Amplify Fusion / AI Gateway, t
   * Creation Method: **External MCP Server**
   * Server Name: `Order Proxy MCP Server`
   * Fusion MCP Connection: choose **Create new connection**
-  ![create-mcp-client](images/05-create-mcp-client.png)
+  ![create-mcp-server](images/04-create-mcp-server-form.png)
     * Artifact Name: `Order Remote MCP Server`
+    ![create-mcp-client](images/05-create-mcp-client.png)
     * Service Root URL: `https://mcpdemo.tools/mcp`
     * Click **Update** to save the connection
   ![mcp-client-properties](images/06-mcp-client-properties.png)
@@ -37,9 +38,10 @@ Expose a remote MCP server as a secure proxy with Amplify Fusion / AI Gateway, t
 
 ### 2. Activate the MCP proxy
 
-* Activate the MCP server on the Fusion data plane with the ▶ button
-![activate-mcp-server](images/09-activate-mcp-server.png)
+* Activate the MCP server on the Fusion data plane with the ![▶](images/09-activate-button.png) button
+![activate-mcp-server](images/09a-activate-mcp-server.png)
 * Copy the MCP proxy URL
+![activate-mcp-server](images/09b-mcp-server-url.png)
 
 ### 3. Test from Claude Desktop
 
