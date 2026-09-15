@@ -4,10 +4,11 @@ Créez un serveur MCP avec un tool personnalisé reposant sur une connexion Open
 
 ## Prérequis
 
-* Accès à Amplify Fusion (https://fr-techlab.sandbox.fusion.services.axway.com) et à un projet avec un Server MCP en cours de création
-![connection](images/01-connection.png)
+* Accès à Amplify Fusion: [https://fr-techlab.sandbox.fusion.services.axway.com](https://fr-techlab.sandbox.fusion.services.axway.com)
+  ![connection](images/01-connection.png)
 * Détails de connexion à une Open API de gestions de factures
-* Claude Desktop installé (nécessite Node.js), avec un compte Claude gratuit ou supérieur
+* [Claude Desktop](https://claude.com/download) installé, avec un compte Claude gratuit ou supérieur
+* [Node.js](https://nodejs.org/fr) installé sur le même poste
 
 ## Étapes
 
@@ -87,8 +88,9 @@ Créez un serveur MCP avec un tool personnalisé reposant sur une connexion Open
 ### 5. Activer le serveur MCP
 
 * Revenez à votre serveur MCP et activez-le.
-* Copiez l'URL du serveur MCP.
 ![activate-mcp-server](images/15-activate-mcp-server.png)
+* Copiez l'URL du serveur MCP.
+![mcp-server-ur](images/15b-mcp-server-url.png)
 
 ### 6. Tester depuis Claude Desktop
 

@@ -4,10 +4,11 @@ Build an MCP server with a custom tool backed by an OpenAPI connection in Amplif
 
 ## Requirements
 
-* Access to Amplify Fusion (https://emea-techlab.sandbox.fusion.services.axway.com) with a working project and MCP Server ready to configure
-![connection](images/01-connection.png)
+* Access to Amplify Fusion: [https://emea-techlab.sandbox.fusion.services.axway.com](https://emea-techlab.sandbox.fusion.services.axway.com)
+  ![connection](images/01-connection.png)
 * Connection details to an OpenAPI to manage invoices
-* Claude Desktop installed (requires Node.js), with a free Claude account or higher
+* [Claude Desktop](https://claude.com/download) installed, with a free Claude account or higher
+* [Node.js](https://nodejs.org/) installed on the same machine
 
 ## Steps
 
@@ -88,9 +89,9 @@ Build an MCP server with a custom tool backed by an OpenAPI connection in Amplif
 ### 5. Activate the MCP server
 
 * Go back to your MCP server and activate it
-* Copy the MCP server URL
 ![activate-mcp-server](images/15-activate-mcp-server.png)
-
+* Copy the MCP server URL
+![mcp-server-ur](images/15b-mcp-server-url.png)
 ### 6. Test from Claude Desktop
 
 * Open Claude Desktop config (File > Settings > Developers > Edit Config)
