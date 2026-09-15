@@ -6,7 +6,7 @@ Expose a remote MCP server as a secure proxy with Amplify Fusion / AI Gateway, t
 
 * Access to Amplify Fusion: [https://emea-techlab.sandbox.fusion.services.axway.com](https://emea-techlab.sandbox.fusion.services.axway.com)
   ![connection](images/01-connection.png)
-* URL of a remote MCP server to proxy ([(https://mcpdemo.tools](https://mcpdemo.tools) provides an online MCP server, free and handy for test purposes)
+* URL of a remote MCP server to proxy ([https://mcpdemo.tools](https://mcpdemo.tools) provides an online MCP server, free and handy for test purposes)
 * [Claude Desktop](https://claude.com/download) installed, with a free Claude account or higher
 * [Node.js](https://nodejs.org/) installed on the same machine
 

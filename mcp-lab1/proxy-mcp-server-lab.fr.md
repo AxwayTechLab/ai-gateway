@@ -6,7 +6,7 @@ Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusio
 
 * Accès à Amplify Fusion: [https://fr-techlab.sandbox.fusion.services.axway.com](https://fr-techlab.sandbox.fusion.services.axway.com)
   ![connection](images/01-connection.png)
-* URL d'un serveur MCP distant à proxyfier ([(https://mcpdemo.tools](https://mcpdemo.tools) fournit un serveur MCP en ligne gratuit, pratique pour les tests)
+* URL d'un serveur MCP distant à proxyfier ([https://mcpdemo.tools](https://mcpdemo.tools) fournit un serveur MCP en ligne gratuit, pratique pour les tests)
 * [Claude Desktop](https://claude.com/download) installé, avec un compte Claude gratuit ou supérieur
 * [Node.js](https://nodejs.org/fr) installé sur le même poste
 
