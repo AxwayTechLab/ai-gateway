@@ -95,7 +95,7 @@ Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusio
 * Ouvrez le menu **Applications** dans le module **Manager**
 ![applications](images/15-applications.png)
 * Modifier l'application client **claude-desktop**
-* Dans l'onglet MCP Server, ajoutez votre Proxy MCP Server
+* Dans l'onglet MCP Server, ajoutez votre Proxy MCP Server et cliquez sur **Update**
 ![application-mcp-access](images/16-application-mcp-access.png)
 * Si vous avez choisi la sécurité **API Key**, copiez la clé existante dans l'onglet **API Key**.
 ![application-api-key](images/17-application-api-key.png)
