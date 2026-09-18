@@ -117,3 +117,9 @@ Créez un serveur MCP avec un tool personnalisé reposant sur une connexion Open
   * `Appliquer une remise de 10%.` -> doit mettre à jour la facture en conséquence.
   * `L'envoyer.` -> doit marquer la facture comme envoyée.
 
+### 7. (Optionnel) Monitorer les transactions MCP
+
+* Ouvrez les **MCP Transactions** dans le module **Monitor**
+![transactions-monitoring](images/18-transactions-monitoring.png)
+* Trouvez les transactions MCP correspondant à vos tests depuis Claude
+* Observez les détails de chaque transaction

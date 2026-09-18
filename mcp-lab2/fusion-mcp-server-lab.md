@@ -116,3 +116,10 @@ Build an MCP server with a custom tool backed by an OpenAPI connection in Amplif
   * `What is the latest draft invoice?` -> should provide the invoice details, including total and due date
   * `Apply a 10% discount.` -> should update the invoice accordingly
   * `Send it.` -> should mark the invoice as sent
+
+### 7. (Optional) Monitor MCP transactions
+
+* Go to **MCP Transactions** in **Monitor** module 
+![transactions-monitoring](images/18-transactions-monitoring.png)
+* Find the MCP transactions matching your test from Claude
+* Check details for each transaction
