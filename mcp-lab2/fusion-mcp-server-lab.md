@@ -4,7 +4,7 @@ Build an MCP server with a custom tool backed by an OpenAPI connection in Amplif
 
 ## Requirements
 
-* Access to Amplify Fusion: [https://emea-techlab.sandbox.fusion.services.axway.com](https://emea-techlab.sandbox.fusion.services.axway.com)
+* Access to Amplify Fusion: [https://eu-north-techlab.sandbox.fusion.services.axway.com](https://eu-north-techlab.sandbox.fusion.services.axway.com)
   ![connection](images/01-connection.png)
 * Connection details to an OpenAPI to manage invoices
 * [Claude Desktop](https://claude.com/download) installed, with a free Claude account or higher
