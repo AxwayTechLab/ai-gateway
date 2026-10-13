@@ -26,7 +26,7 @@ Exposez un serveur MCP distant sous forme de proxy sécurisé avec Amplify Fusio
     ![create-mcp-client](images/05-create-mcp-client.png)
     * Service Root URL : `https://mcpdemo.tools/mcp`  
     * Cliquez sur **Update** pour enregistrer la connexion
-    > Si ce service ne fonctionne pas, voici une anlternative : \
+    > Si ce service ne fonctionne pas, voici une alternative : \
     `https://demo-design.sandbox.fusion.services.axway.com:4443/mcpdemo`
   ![mcp-client-properties](images/06-mcp-client-properties.png)
   * Cliquez sur **Resume MCP Proxy Creation** pour revenir au formulaire de création du serveur MCP
